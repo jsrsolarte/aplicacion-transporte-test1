@@ -13,6 +13,8 @@ public class Carro extends Vehiculo {
         this.color = color;
     }
 
+    //TODO: Crear metodo para lavar carro
+
     //TODO: pintar carro
 
     //TODO: Crear metodo para lavar carro
