@@ -17,7 +17,6 @@ public class Carro extends Vehiculo {
 
     //TODO: Crear metodo para lavar carro
 
-    //TODO: pintar carro
 
     @Override
     public String obtenerTipo() {
