@@ -5,12 +5,15 @@ import dominio.interfaces.Conducible;
 public class Carro extends Vehiculo {
 
     private String color;
-    private String ejes;
+
+    //comentario
 
     public Carro(int id, String marca, String modelo, String placa, int capacidadPasajeros, Conductor conductor, String color) {
         super(id, marca, modelo, placa, capacidadPasajeros, conductor);
         this.color = color;
     }
+
+    //TODO: Crear metodo para lavar carro
 
     @Override
     public String obtenerTipo() {
