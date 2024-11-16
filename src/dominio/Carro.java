@@ -12,6 +12,8 @@ public class Carro extends Vehiculo {
         this.color = color;
     }
 
+    //TODO: pintar carro
+
     @Override
     public String obtenerTipo() {
         return "Carro";
